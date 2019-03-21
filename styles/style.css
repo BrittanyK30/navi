@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Style the header navigation bar */
+.hnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the head nav links */
+.hnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.hnav a:hover {
+  background-color: rgb(221, 221, 221);
+  color: black;
+}
+
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
