@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script');
-
 * {
   box-sizing: border-box;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif, cursive;
+  /* font-family: 'Petit Formal Script'; */
 }
 
 body {
@@ -62,4 +61,9 @@ body {
 .footer {
   background-color: #f1f1f1;
   padding: 10px;
+}
+
+.fan {
+  font-family: 'Petit Formal Script', cursive;
+  text-align: center;
 }
