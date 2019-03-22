@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script');
+
 * {
   box-sizing: border-box;
   font-family: 'Oswald', sans-serif;
@@ -8,6 +10,10 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
+.header {
+  text-align: center;
+  padding: 32px;
+}
 /* Style the header navigation bar */
 .hnav {
   overflow: hidden;
@@ -28,6 +34,27 @@ body {
 .hnav a:hover {
   background-color: rgb(221, 221, 221);
   color: black;
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }
 
 
